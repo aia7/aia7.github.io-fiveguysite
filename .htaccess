@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Checks for file with html extension
+
+RewriteCond %{REQUEST_FILENAME}\.html -f 
